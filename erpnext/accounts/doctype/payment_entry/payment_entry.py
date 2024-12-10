@@ -81,7 +81,7 @@ class PaymentEntry(AccountsController):
 		self.validate_payment_type()
 		self.validate_party_details()
 		self.set_exchange_rate()
-		self.validate_mandatory()
+		# self.validate_mandatory()
 		self.validate_reference_documents()
 		self.set_amounts()
 		self.validate_amounts()
